@@ -4,33 +4,45 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <header>
-  <section>
+  <section id = 'mainheader'>
     <img src="img/logo.png">
-    <h1>Delicious</h1>
-    <h6>THE BEST FOOD BLOG ON THE WEB</h6>
-    <div>
-      <img src="img/fb-icon.png" alt="">
-      <img src="img/twit-icon.png" alt="">
-      <img src="img/gp-icon.png" alt="">
-      <img src="img/insta-icon.png" alt="">
-      <img src="img/flic-icon.png" alt="">
-      <img src="img/pint-icon.png" alt="">
-      <div>
+    <div id = 'topheader'>
+      <h1>Delicious</h1>
+      <h6>THE BEST FOOD BLOG ON THE WEB</h6>
+    </div>
+    <div id = 'fixedimages'>
+      <section id = 'firstimages'>
+        <img src="img/fb-icon.png" alt="">
+        <img src="img/twit-icon.png" alt="">
+        <img src="img/gp-icon.png" alt="">
+        <img src="img/insta-icon.png" alt="">
+        <img src="img/flic-icon.png" alt="">
+        <img src="img/pint-icon.png" alt="">
+      </section>
+      <section id = 'secondimages'>
         <img src="img/rss-icon.png" alt="">
         <img src="img/mail-icon.png" alt="">
-      </div>
+      </section>
     </div>
+   </section> 
 
+  <section id = 'repeatimagebackground'>
+    <img src="img/hr-img.png" alt="">
   </section>
-  <img src="img/hr-img.png" alt="">
 </header>
 
 <body>
-  <h2>Chocolate Pizza</h2>
-  <h5>POSTED ON 15 DECEMBER 2013 / Desserts</h5>
-  <img src="img/print-icon.png" alt="">
-  <h5>Print</h5>
-  <img src="img/choco-pizza.png" alt="">
+  <section id = 'nextsection1'>
+    <div id = 'mainbox'>
+      <h2>Chocolate Pizza</h2>
+      <h5>POSTED ON 15 DECEMBER 2013 / Desserts</h5>
+    </div>
+    <div id = 'printbox'>
+      <img id = 'printerimage' src="img/print-icon.png" alt="">
+      <h6>Print</h5>
+    </div>
+  </section>
+  <img id = 'chocopizza' src="img/choco-pizza.png" alt="">
   <article>
     <p>
       For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Half of all
@@ -65,29 +77,39 @@
     }
   }
     </script>
-  <ul>
-    <li id="li1"><input type="checkbox" onclick="check(1)" id="cb1"> 1 1/2 cups milk</li>
-    <li id="li2"><input type="checkbox" onclick="check(2)" id="cb2"> 1/2 cup mascarpone</li>
-    <li id="li3"><input type="checkbox" onclick="check(3)" id="cb3"> 1/2 tsp pink salt</li>
-    <li id="li4"><input type="checkbox" onclick="check(4)" id="cb4"> 1 lb Black Mission Figs</li>
-    <li id="li5"><input type="checkbox" onclick="check(5)" id="cb5"> 1/2 cup brown sugar</li>
-    <li id="li6"><input type="checkbox" onclick="check(6)" id="cb6"> 2-4 tbsp water</li>
-    <li id="li7"><input type="checkbox" onclick="check(7)" id="cb7"> 1 1/2 cups heavy cream</li>
-    <li id="li8"><input type="checkbox" onclick="check(8)" id="cb8"> 1/3 granulated sugar</li>
-    <li id="li9"><input type="checkbox" onclick="check(9)" id="cb9"> 2 egg yolks</li>
-    <li id="li10"><input type="checkbox" onclick="check(10)" id="cb10"> 1 lemon, juiced</li>
-    <li id="li11"><input type="checkbox" onclick="check(11)" id="cb11"> 2 tbsp butter</li>
-    <li id="li12"><input type="checkbox" onclick="check(12)" id="cb12"> 1 cup honey roasted pecans, roughly chopped</li>
-  </ul>
-  <img src="img/hr-img.png" alt="">
+  <section id = 'notepadbackground'>
+    <ul id = 'firstlist'>
+      <li id="li1"><input type="checkbox" onclick="check(1)" id="cb1"> 1 1/2 cups milk</li>
+      <li id="li2"><input type="checkbox" onclick="check(2)" id="cb2"> 1/2 cup mascarpone</li>
+      <li id="li3"><input type="checkbox" onclick="check(3)" id="cb3"> 1/2 tsp pink salt</li>
+      <li id="li4"><input type="checkbox" onclick="check(4)" id="cb4"> 1 lb Black Mission Figs</li>
+      <li id="li5"><input type="checkbox" onclick="check(5)" id="cb5"> 1/2 cup brown sugar</li>
+      <li id="li6"><input type="checkbox" onclick="check(6)" id="cb6"> 2-4 tbsp water</li>
+    </ul>  
+    <ul id = 'secondlist'>
+      <li id="li7"><input type="checkbox" onclick="check(7)" id="cb7"> 1 1/2 cups heavy cream</li>
+      <li id="li8"><input type="checkbox" onclick="check(8)" id="cb8"> 1/3 granulated sugar</li>
+      <li id="li9"><input type="checkbox" onclick="check(9)" id="cb9"> 2 egg yolks</li>
+      <li id="li10"><input type="checkbox" onclick="check(10)" id="cb10"> 1 lemon, juiced</li>
+      <li id="li11"><input type="checkbox" onclick="check(11)" id="cb11"> 2 tbsp butter</li>
+      <li id="li12"><input type="checkbox" onclick="check(12)" id="cb12"> 1 cup honey roasted pecans, roughly chopped</li>
+    </ul>
+  </section>
+  <section id = 'repeatimagebackground'>
+    <img src="img/hr-img.png" alt="">
+  </section>
+  <section id = 'finalsection'>
+    <img src="img/van-pic.png" alt="">
+    <div id = 'vanessatext'>
+      <h2>Vanessa Stevenson</h2>
+      <h5>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</h5>
+    </div>
+    <button id = 'button'>SHARE RECIPE</button>
+  </section>     
 </body>
 <footer>
-  <img src="img/van-pic.png" alt="">
-  <h2>Vanessa Stevenson</h2>
-  <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-  <button>SHARE RECIPE</button>
   <img src="img/small-logo.png" alt="">
-  <p>Delicious ©2013 All Rights Reserved. Proudly published with Ghost</p>
+  <p>Delicious ©2013 All Rights Reserved.</p>
+  <p>Proudly published with Ghost</p>
 </footer>
-
 </html>
