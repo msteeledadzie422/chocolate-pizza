@@ -1,4 +1,102 @@
-ul{
-  background-image:url('img/list-bg.png');
-  
+html {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1, h6 {
+  margin: 0px;
+  padding: 3px;
+}
+
+#mainheader {
+  display: flex;
+}
+
+#fixedimages {
+  display: flex;
+  position: relative;
+  right: 15px;
+  margin-left: auto;
+}
+
+#secondimages {
+  position: relative;
+  left: 10px;
+}
+
+#repeatimagebackground {
+  background-image: url('img/hr-img.png');
+  background-repeat: repeat;
+  height: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#nextsection1 {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#printbox {
+  position: relative;
+  right: 0px;
+  display: inline-flex;
+  margin-left: auto;
+}
+
+h2, h5 {
+  margin: 0px;
+  padding: 2px;
+}
+
+#chocopizza {
+  width: 100%;
+}
+
+article p {
+  text-indent: 2%;
+}
+
+#notepadbackground {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  background-image: url('img/list-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  width: 50%;
+}
+
+#finalsection {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#vanessatext {
+  margin-left: 15px;
+}
+
+#button {
+  position: relative;
+  right: 15px;
+  background-color: hwb(11 28% 22%);
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: auto;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin: 0px;
+  padding: 2px;
 }
